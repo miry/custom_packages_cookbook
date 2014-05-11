@@ -1,10 +1,10 @@
 # custom_packages-cookbook
 
-TODO: Enter the cookbook description here.
+Install required utils without create a cookbook.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+All platforms that support chef
 
 ## Attributes
 
@@ -16,10 +16,10 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['custom_packages']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
+    <td><tt>['custom_packages']</tt></td>
+    <td>Array</td>
+    <td>A list of required packages</td>
+    <td><tt>[]</tt></td>
   </tr>
 </table>
 
@@ -48,4 +48,4 @@ Include `custom_packages` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Michael Nikitochkin (michael.a.nikitochkin@gmail.com)
