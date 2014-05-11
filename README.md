@@ -31,6 +31,10 @@ Include `custom_packages` in your node's `run_list`:
 
 ```json
 {
+  "custom_packages": [
+    "vim"
+  ],
+
   "run_list": [
     "recipe[custom_packages::default]"
   ]
